@@ -1,0 +1,11 @@
+<view class="page" style="background: url('{{imgCDN}}{{images}}'); background-size: 100% 100%;">
+  <view class="button_container">
+    <navigator class="button" url="map/details">
+      <text>{{shortName}}简介</text>
+    </navigator>
+    <navigator class="button" url="map/index">
+      <text>逛逛{{shortName}}</text>
+    </navigator>
+  </view>
+ 
+</view>
